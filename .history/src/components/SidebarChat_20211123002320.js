@@ -27,7 +27,7 @@ export default function SidebarChat({ addNewChat, roomId, name }) {
           setMessages(snapchot?.docs?.map((doc) => doc.data()))
         );
     }
-  }, [roomId]);
+  }, [room]);
 
   useEffect(() => {
     setSeed(Math.floor(Math.random() * 5000));
