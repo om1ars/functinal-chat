@@ -1,0 +1,6 @@
+.login__container {
+    background-color: white;
+    display: flex;
+    align-items: center;
+    width: 100vw;
+}
